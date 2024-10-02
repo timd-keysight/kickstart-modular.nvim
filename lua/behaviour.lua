@@ -10,6 +10,9 @@ local function setup()
   -- We want swap files, we don't like plugins that crash
   vim.o.swapfile = true
 
+  vim.o.shiftwidth = 2
+  vim.o.expandtab = true
+
   -- Some nitwit sets it to 2, reset it
   vim.o.tabstop = 8
 
