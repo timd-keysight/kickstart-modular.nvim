@@ -7,4 +7,10 @@ return {
     'junegunn/vim-easy-align',
     'easics/filenavigation',
   },
+  {
+    'numToStr/Navigator.nvim',
+    config = function()
+      require('Navigator').setup()
+    end,
+  },
 }
