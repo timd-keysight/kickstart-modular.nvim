@@ -13,4 +13,10 @@ return {
       require('Navigator').setup()
     end,
   },
+  {
+    'jghauser/mkdir.nvim',
+  },
+  {
+    'tpope/vim-abolish',
+  },
 }
