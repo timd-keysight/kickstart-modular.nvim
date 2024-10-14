@@ -12,6 +12,20 @@ A starting point for Neovim that is:
 
 **NOT** a Neovim distribution, but instead a starting point for your configuration.
 
+## Main changes w.r.t starting point
+
+- Added Ruff & pyright LSPs
+- Added F1, F2 to switch between buffers
+- Added F4 to set cwd to directory of currently open buffer
+<!-- - Made tab, shift-tab and enter work with autocompletion -->
+- Bind Telescope.git_files (search current git project's files) to <leader>sp
+- Add Flash and configure keybinds, make F4 trigger properly
+- Add UndoTree (leader+TU), map neotree to leader+tt (toggle tree)
+- Add barbar (tabs like in any editor)
+- Add neogen (documentation generation with <leader>dg)
+- Fix F1, F2, etc in insert mode
+- Adjust conform &lspconfig
+
 ## Installation
 
 ### Install Neovim
