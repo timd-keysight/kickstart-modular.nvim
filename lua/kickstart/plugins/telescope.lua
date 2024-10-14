@@ -64,6 +64,7 @@ return {
         -- pickers = {}
         pickers = {
           git_files = {
+            recurse_submodules = true
           }
         },
         extensions = {
