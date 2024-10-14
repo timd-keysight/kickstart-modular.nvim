@@ -1,5 +1,5 @@
 local function setup()
-  vim.api.nvim_set_hl(0, 'Comment', { fg = '#F01010' })
+  -- vim.api.nvim_set_hl(0, 'Comment', { fg = '#F01010' })
 
   vim.api.nvim_set_hl(0, 'WinSeparator', { fg = 'orange' })
 
